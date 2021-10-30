@@ -1,0 +1,28 @@
+$scrollbar: #4d4d57;
+$scrollbar-bg: #a8a8b3;
+
+$black: #09090a;
+$white: #fff;
+$yellow: #ffcd1e;
+$pink: #ff008e;
+$grey: #8d8d99;
+$text: #a8a8b3;
+$background: #121214;
+$diagonal-gradient: linear-gradient(104deg, #ff008e 0.48%, #ffcd1e);
+$diagonal-gradient-2: linear-gradient(208deg, #ff008e 0.48%, #ffcd1e);
+
+$font-banner: 5.5rem;
+$font-std: 1rem;
+$font-sm: 0.8rem;
+$font-md: 1.2rem;
+$font-lg: 1.5rem;
+$font-xl: 3rem;
+$font-xxl: 4rem;
+
+$btn-width: 2.5rem;
+$btn-height: calc(#{$btn-width} * 0.8);
+$rec-height: calc(#{$btn-width} * 0.1); 
+$rec-radius: calc(#{$btn-width} * 0.04); 
+$translate: calc(#{$btn-width} * 0.17); 
+$transition: 0.4s ease;
+$nav-size: 5rem;

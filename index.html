@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I'm Bruno Ildebrando Almeida, a Front-End Web Developer and this is my portfolio. Hope you enjoy it!">
+    <meta name="keywords" content="Front-End, Web Developer, HTML, CSS, JavaScript, Sass, React, Bootstrap, Jquery, GIT, Responsive Design, Bruno Ildebrando Almeida">
+    <meta name="author" content="Bruno Ildebrando Almeida">
+    <title>Bruno Ildebrando Almeida | Front-end Web Developer Portfolio</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <!-- font awesome | all icons can be found for free here https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- google fonts | roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <aside>
+            <nav class="navigation">
+                <ul>
+                    <li>
+                        <a href="#home">
+                            <span class="icon"><i class="fas fa-home" role="img" aria-label="Home"></i></span>
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about">
+                            <span class="icon"><i class="fas fa-user" role="img" aria-label="About"></i></span>
+                            <span class="title">About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#skills">
+                            <span class="icon"><i class="fas fa-tools" role="img" aria-label="Skills"></i></span>
+                            <span class="title">Skills</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects">
+                            <span class="icon"><i class="fas fa-file-code" role="img" aria-label="Projects"></i></span>
+                            <span class="title">Projects</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            <span class="icon"><i class="fas fa-at" role="img" aria-label="Contact"></i></span>
+                            <span class="title">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <button class="fancy-burger" onclick="toggleMenu()" aria-label="Menu">
+                <span class="rectangle rectangle--top rectangle--small"></span>
+                <span class="rectangle rectangle--middle"></span>
+                <span class="rectangle rectangle--bottom rectangle--small"></span>
+            </button>
+        </aside>
+    
+        <header id="home">
+            <div class="logo">
+                <i id="code-logo" class="fas fa-code" role="img" aria-label="Code"></i>
+                <p>Bruno I Almeida</p>
+            </div>
+            <div class="banner">
+                <h1 onclick="spin()" title="Click here">
+                    Front-end <br>
+                    Web Developer
+                </h1>
+            </div>
+            <span class="pattern"></span>
+        </header>
+
+        <main>
+            <section id="about">
+                <div class="about">
+                    <h2>Hello <i class="fas fa-comment fa-1x" role="img" aria-label="Chat"></i></h2>
+                    <p>I'm Bruno, a front-end web developer based in Canada. Love technology since my father bought us a 386 in the early '90s when I spent a lot of time playing Prince of Persia and Stunts. Coding was part of my life in the past, but life had other plans for me, until now. I'm a self-starter and self-learner kinda guy, driven and focused on details, always trying to improve myself. Impacting other people's lives is what keeps me motivated.</p>
+                    <div class="social-medias">
+                        <a href="https://www.linkedin.com/in/brunoia/" target="_blank" rel="noopener"><i class="fab fa-linkedin" role="img" aria-label="Linkedin" title="LINKEDIN"></i></a>
+                        <a href="https://github.com/brunoia" target="_blank" rel="noopener"><i class="fab fa-github-square" role="img" aria-label="GitHub" title="GITHUB"></i></a>
+                        <a href="./assets/Resume - Frontend Web Developer.pdf" target="_blank" rel="noopener" id="resume-btn" aria-label="Resume" title="RESUME">Resume</a>
+                    </div>
+                </div> 
+            </section>
+
+            <section id="skills">
+                <div class="skills">
+                    <h2>Skills <i class="fas fa-laptop-code fa-1x" role="img" aria-label="Laptop"></i></h2>
+                    <div class="skills-container">
+                        <div class="icons-container">
+                            <img src="./assets/skills-html-5.svg" alt="HTML5 Icon" title="HTML5" width="72px" height="72px" loading="lazy">
+                            <h3>HTML5</h3>
+                        </div>
+                        <div class="icons-container">
+                            <img src="./assets/skills-css-3.svg" alt="CSS3 Icon" title="CSS3" width="72px" height="72px" loading="lazy">
+                            <h3>CSS3</h3>
+                        </div>
+                        <div class="icons-container">
+                            <img src="./assets/skills-javascript.svg" alt="Javascript Icon" title="JAVASCRIPT" width="72px" height="72px" loading="lazy">
+                            <h3>JAVASCRIPT</h3>
+                        </div>
+                        <div class="icons-container">
+                            <img src="./assets/skills-sass.svg" alt="Sass Iocn" title="SASS" width="72px" height="72px" loading="lazy">
+                            <h3>SASS</h3>
+                        </div>
+                        <div class="icons-container">
+                            <img src="./assets/skills-bootstrap.svg" alt="Bootstrap Icon" title="BOOTSTRAP" width="72px" height="72px" loading="lazy">
+                            <h3>BOOTSTRAP</h3>
+                        </div>
+                        <div class="icons-container">
+                            <img src="./assets/skills-jquery.svg" alt="Jquery Icon" title="JQUERY" width="72px" height="72px" loading="lazy">
+                            <h3>JQUERY</h3>
+                        </div>
+                        <div class="icons-container">
+                            <img src="./assets/skills-react.svg" alt="React Icon" title="REACT" width="72px" height="72px" loading="lazy">
+                            <h3>REACT</h3>
+                        </div>
+                        <div class="icons-container">
+                            <img src="./assets/skills-git.svg" alt="GIT Icon" title="GIT" width="72px" height="72px" loading="lazy">
+                            <h3>GIT</h3>
+                        </div>
+                        <div class="icons-container">
+                            <img src="./assets/skills-responsive-design.svg" title="RESPONSIVE DESIGN" alt="Responsive Design icon" width="72px" height="72px" loading="lazy">
+                            <h3>RESPONSIVE DESIGN</h3>
+                        </div>      
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <div class="projects">
+                    <span class="pattern2"></span>
+
+                    <h2>PROJECTS <i class="fas fa-folder-open fa-1x" role="img" aria-label="Folder"></i></h2>
+
+                    <div class="projects-wrapper">
+                        <div class="mySlides fade">
+                            <img src="./assets/projects-academia-480.png" alt="Academia da Avicultura project image" width="480px" height="360px" loading="lazy">
+                            <div class="text">
+                                <h3><a href="https://www.academiadaavicultura.com.br/" target="_blank" rel="noopener">Academia da Avicultura</a></h3>
+                                <div class="projects-description">
+                                    <p><i class="fas fa-info-circle" role="img" aria-label="info"></i> A Brazilian e-learning company. At first, I worked with a designer to make a personalized <a href="https://www.academiadaavicultura.com.br/" target="_blank" rel="noopener">homepage</a> for them. After that, they asked for a personalized <a href="https://www.academiadaavicultura.com.br/faq.html" target="_blank" rel="noopener">FAQ</a> and <a href="https://www.academiadaavicultura.com.br/sobre.html" target="_blank" rel="noopener">SOBRE</a> pages, which I have done by myself based on the homepage design. Used semantic HTML5, SEO practices and lazy loading to improve the website performance.</p>
+                                    <h4><i class="fas fa-tools" role="img" aria-label="technologies"></i> HTML5, CSS3, Gallery CSS, JavaScript</h4>
+                                </div>
+                                <div class="links">
+                                    <a href="https://www.academiadaavicultura.com.br/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" role="img" aria-label="link"></i> Live Site</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                            <img src="./assets/projects-github-api-480.png" alt="GitHub API project image" width="480px" height="360px" loading="lazy">
+                            <div class="text">
+                                <h3><a href="https://brunoia.github.io/github-api/" target="_blank" rel="noopener">GitHub API</a></h3>
+                                <div class="projects-description">
+                                    <p><i class="fas fa-info-circle" role="img" aria-label="info"></i> Search by the username that you want and it will show you the main information about the user and their repositories. You can choose to filter the repositories by a programming language as well.</p>
+                                    <h4><i class="fas fa-tools" role="img" aria-label="technologies"></i> REST API, React, React Router, Styled Components</h4>
+                                </div>
+                                <div class="links">
+                                    <a href="https://brunoia.github.io/github-api/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" role="img" aria-label="link"></i> Live Site</a>
+                                    <a href="https://github.com/brunoia/github-api" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" role="img" aria-label="link"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                            <img src="./assets/projects-splitter-480.png" alt="Splitter project image" width="480px" height="360px" loading="lazy">
+                            <div class="text">
+                                <h3><a href="https://brunoia.github.io/splitter-tip-calculator/" target="_blank" rel="noopener">Tip Calculator App</a></h3>
+                                <div class="projects-description">
+                                    <p><i class="fas fa-info-circle" role="img" aria-label="info"></i> This is a solution to the <a href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX" target="_blank" rel="noopener">Tip Calculator App challenge on Frontend Mentor</a>. Calculate how much each person will pay based on the number of people and the desired percentage of the tip. Decided to use mobile-first workflow to try a different approach than I'm used to.</p>
+                                    <h4><i class="fas fa-tools" role="img" aria-label="technologies"></i> HTML5, Sass, JavaScript, Mobile-First</h4>
+                                </div>
+                                <div class="links">
+                                    <a href="https://brunoia.github.io/splitter-tip-calculator/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" role="img" aria-label="link"></i> Live Site</a>
+                                    <a href="https://github.com/brunoia/splitter-tip-calculator" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" role="img" aria-label="link"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                            <img src="./assets/projects-memory-480.png" alt="Memory Game project image" width="480px" height="360px" loading="lazy">
+                            <div class="text">
+                                <h3><a href="https://brunoia.github.io/memory-game/" target="_blank" rel="noopener">Memory Game</a></h3>
+                                <div class="projects-description">
+                                    <p><i class="fas fa-info-circle" role="img" aria-label="info"></i> This was an old vanilla JavaScript project that I had and decided to turn it into React to learn more about the stack. It's a fun memory game based on Web Development technologies.</p>
+                                    <h4><i class="fas fa-tools" role="img" aria-label="technologies"></i> React, CSS</h4>
+                                </div>
+                                <div class="links">
+                                    <a href="https://brunoia.github.io/memory-game/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" role="img" aria-label="link"></i> Live Site</a>
+                                    <a href="https://github.com/brunoia/memory-game" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" role="img" aria-label="link"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="./assets/projects-ihome-480.png" alt="Memory Game project image" width="480px" height="360px" loading="lazy">
+                            <div class="text">
+                                <h3><a href="https://brunoia.github.io/ihome/" target="_blank" rel="noopener">iHome</a></h3>
+                                <div class="projects-description">
+                                    <p><i class="fas fa-info-circle" role="img" aria-label="info"></i> iHome is a mockup of an architecture company that I made in Bootstrap 5. The main idea was to practice Bootstrap and mobile-first workflow as well.</p>
+                                    <h4><i class="fas fa-tools" role="img" aria-label="technologies"></i> HTML5, Bootstrap 5, Mobile-First</h4>
+                                </div>
+                                <div class="links">
+                                    <a href="https://brunoia.github.io/ihome/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" role="img" aria-label="link"></i> Live Site</a>
+                                    <a href="https://github.com/brunoia/ihome" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" role="img" aria-label="link"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="./assets/projects-music-player-480.png" alt="Music Player project image" width="480px" height="360px" loading="lazy">
+                            <div class="text">
+                                <h3><a href="https://brunoia.github.io/music-player/" target="_blank" rel="noopener">Music Player</a></h3>
+                                <div class="projects-description">
+                                    <p><i class="fas fa-info-circle" role="img" aria-label="info"></i> One of the first projects I did by myself to put some JavaScript knowledge into practice. Simple design to simulate a mobile phone and royalty-free music to test it. It was the first project that I uploaded to GitHub as well.</p>
+                                    <h4><i class="fas fa-tools" role="img" aria-label="technologies"></i> HTML5, CSS3, JavaScript</h4>
+                                </div>
+                                <div class="links">
+                                    <a href="https://brunoia.github.io/music-player/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" role="img" aria-label="link"></i> Live Site</a>
+                                    <a href="https://github.com/brunoia/music-player" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" role="img" aria-label="link"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="./assets/projects-inception-480.png" alt="Portfolio project image" width="480px" height="360px" loading="lazy">
+                            <div class="text">
+                                <h3><a href="#home" target="_blank" rel="noopener">Inception</a></h3>
+                                <div class="projects-description">
+                                    <p><i class="fas fa-info-circle" role="img" aria-label="info"></i> And here, a little bonus. After 6 or 7 final versions, this is the final FINAL version of this portfolio - so far, at least. I decided to go with a more minimalistic and straightforward version, nothing too fancy or overwhelming. Hope you enjoy it!</p>
+                                    <h4><i class="fas fa-tools" role="img" aria-label="technologies"></i> HTML5, Sass, JavaScript</h4>
+                                </div>
+                                <div class="links">
+                                    <a href="#" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" role="img" aria-label="link"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+
+                    <div class="slide-control">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                        <span class="dot" onclick="currentSlide(7)"></span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="contact">
+                    <h2>Contact <i class="fas fa-arrow-circle-down fa-1x" role="img" aria-label="Contact"></i></h2>
+                    <form action="https://formsubmit.co/c80f513828437310279ad7935f44fbce" method="POST">
+                        <span>
+                            <input type="text" name="name" id="name" placeholder="Your name..." required>
+                            <input type="email" name="email" id="email" placeholder="Your email..." required>
+                        </span>
+                        <input type="text" name="subject" id="subject" placeholder="Subject..." required>
+                        <textarea name="message" id="message" rows="4" placeholder="Your message..." required></textarea>
+                        <button type="submit">Submit <i class="fas fa-paper-plane" role="img" aria-label="Submit"></i></button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer">
+                <div class="social-medias">
+                    <a href="https://www.linkedin.com/in/brunoia/" target="_blank" rel="noopener"><i class="fab fa-linkedin" role="img" aria-label="Linkedin" title="LINKEDIN"></i></a>
+                    <a href="https://github.com/brunoia" target="_blank" rel="noopener"><i class="fab fa-github-square" role="img" aria-label="GitHub" title="GITHUB"></i></a>
+                    <a href="mailto:dev@brunoialmeida.com" target="_blank" rel="noopener"><i class="fas fa-envelope-square" role="img" aria-label="Email" title="EMAIL"></i></a>
+                </div>
+                <p>©2021 Bruno Ildebrando Almeida</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
